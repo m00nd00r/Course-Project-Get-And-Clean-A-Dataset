@@ -1,35 +1,12 @@
-# Getting-And-Cleaning-Data
-<<<<<<< HEAD
+# You should create one R script called run_analysis.R that does the following. 
+# 
+# 1. Merges the training and the test sets to create one data set.
+# 2. Extracts only the measurements on the mean and standard deviation for each measurement. 
+# 3. Uses descriptive activity names to name the activities in the data set
+# 4. Appropriately labels the data set with descriptive variable names. 
+# 
+# 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-# I set this R script to work outside of the UCI Har Dataset directory but within the same directory
-# as the UCI folder.
-
-# These scripts will merge the files inside the UCI folder:
-#	activity_labels.txt
-#	subject_test.txt
-#	subject_train.txt
-#	X_test.txt
-#	X_train.txt
-#	y_test.txt
-#	y_train.txt
-
-# Once merged they will output the required .txt file that is a tidy data table of all the mean and standard
-# deviation values for the entire merged dataset. These mean and std values are organized first by Subject
-# and then by Activity:
-#	1 WALKING
-#	2 WALKING_UPSTAIRS
-#	3 WALKING_DOWNSTAIRS
-#	4 SITTING
-#	5 STANDING
-#	6 LAYING
-# The values for the mean and std for each of the variables is listed in the same row as each Subject/Activity pair.
-
-# Because the course assignment requires that we output a .txt file for this tidy data set using write.table, it's
-# difficult to verify that this is in fact a tidy data set without reading everything into R first. So I created
-# Summary table showing only the variables for the first 3 variables in the full data set arranged accordign to 
-# Subject and Activity. This file is called Samsung-Tidy-Date-Summary.txt.
-
-# The rest of this ReadMe file shows the scripts that I wrote with explanations of how they work.
 
 
 ## ***************************************************************************
@@ -195,7 +172,3 @@ write.table(merged_summary, "Samsung-Tidy-Data.txt", row.names = FALSE)
 # Write a formatted output version of the summary_subset dt for easy viewing of the full data set.
 
 capture.output(print(summary_subset,print.gap=3),file="Samsung-Tidy-Data-Summary.txt")
-=======
->>>>>>> 918271b3bdc8dbe0c05c686d19ad422930e05ea9
-
-
