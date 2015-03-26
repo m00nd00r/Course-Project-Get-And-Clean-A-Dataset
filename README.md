@@ -1,4 +1,4 @@
-# Getting-And-Cleaning-Data
+Getting-And-Cleaning-Data
 <<<<<<< HEAD
 
 # I set this R script to work outside of the UCI Har Dataset directory but within the same directory
