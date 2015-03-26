@@ -53,4 +53,4 @@ output: html_document
 	Samsung-Tidy-Data	- this the output file created from merged_summary that is the final required dataset for this assignment.
 	
 	Samsung-Tidy-Data-Summary		-this is a formatted version of summary_subset for easier viewing of the larger Samsung-Tidy-Data
-										file.
+									file.
