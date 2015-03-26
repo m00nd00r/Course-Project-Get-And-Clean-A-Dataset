@@ -8,13 +8,13 @@ output: html_document
 	The following data files were created by run_analysis.R:
 	
 	activity_labels		- a table of number keys associated with the activities:
-										1 WALKING
-										2 WALKING_UPSTAIRS
-										3 WALKING_DOWNSTAIRS
-										4 SITTING
-										5 STANDING
-										6 LAYING
-							The numbers column was given the name ActKey and the label column given the name Activity.
+				1 WALKING
+				2 WALKING_UPSTAIRS
+				3 WALKING_DOWNSTAIRS
+				4 SITTING
+				5 STANDING
+				6 LAYING
+				The numbers column was given the name ActKey and the label column given the name 					Activity.
 							
 	features			- the list of feature names for the data sets provided. This table also has number keys to identify the features.
 							The keys column was given the name Key and the features column was given the name Feature.
